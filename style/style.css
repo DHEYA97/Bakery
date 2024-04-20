@@ -1,0 +1,400 @@
+/* font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans', sans-serif; */
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+}
+.clr
+{
+    clear: both;
+}
+ul{
+    list-style: none; 
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Home */
+#home
+{
+    background-image: url(../image/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: 100% 100%;
+    background-size: cover;
+    text-align: center;
+}
+.home-contaner
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.Home-navbar
+{
+    padding-top: 30px;
+}
+.home-navbar-content-left
+{
+    float: left;
+}
+.home-navbar-content-right
+{
+    float: right;
+    padding-top: 15px;
+}
+.home-navbar-content-right .navbarShow
+{
+    color: #e0dcd2;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    padding: 15px;
+    border-top: 5px solid  rgb(142, 119, 84);;
+}
+.home-navbar-content-right .navbaroPacity
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    padding: 15px;
+}
+.home-content
+{
+    width: 70%;
+    margin: 150px auto 0;
+}
+.homeLogo
+{
+    height: 48px;
+}
+.home-content .one
+{
+    font-size: 22px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;   
+}
+.home-content .Tow
+{
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    color: white;   
+}
+.home-content .Three
+{
+    font-size: 24px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;  
+    margin: 40px 0;
+    line-height: 40px; 
+}
+.home-content .btn-one{
+    background-color: rgb(142, 119, 84);
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 7px;
+}
+.home-content .btn-tow{
+    border: 2px solid white;
+    padding: 15px 28px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 7px;
+}
+/* ------------------------------------- */
+/* Who-we-are */
+#Who-we-are
+{
+    padding: 80px 0;
+}
+.Who-we-are-container
+{
+    margin: 0 auto;
+    width: 80%;
+}
+.Who-we-are-content
+{
+    float: left;
+    width: 50%;
+}
+.who-text
+{ 
+    width: 80%;
+    margin: 100px 0 0 20%;
+}
+.Who-we-are-content .Who-img
+{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.Who-list img{
+    width: 40px;
+}
+.who-one
+{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 20px;   
+}
+.who-tow
+{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.Who-list{
+    margin-bottom: 30px;
+}
+.Who-list p{
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 2%;
+    margin-left: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+}
+/* -------------------------- */
+/* Our Location */
+#Our-Location
+{
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+.Our-Location-container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.Our-Location-contint-text
+{
+    float: left;
+    width: 50%;
+}
+.Our-Location-contint-img
+{
+    float: left;
+    width: 50%;
+}
+.Our-Location-contint-img img
+{
+    width: 90%;
+    margin-left: 40px;
+}
+.Our-Location-text
+{
+    margin-top: 100px;
+}
+.Our-Location-one
+{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    color: RGB(48, 48, 48);
+}
+.Our-Location-tow
+{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+    margin-top: 30px;
+}
+/* ------------------------- */
+/* Our-Baking */
+#Our-Baking
+{
+    padding: 80px 0;   
+}
+.Our-Baking-container
+{
+    margin: 0 auto;
+    width: 80%;
+}
+.Our-Baking-one
+{
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+.Our-Baking-tow
+{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.Our-Baking-contint
+{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+.Our-Baking-contint img{
+    width: 100%;
+}
+.Our-Baking-title
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Alegreya', serif;
+}
+.Our-Baking-topic{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+/* ------------------ */
+/* Contact */
+#Contact
+{
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+.Contact-container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.Contact-content
+{
+    float: left;
+    width: 45%;
+}
+.Contact-one
+{
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+}
+.Contact-tow
+{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 30px 0 ;
+}
+.Contact-content iframe
+{
+    width: 90%;
+    height: 65%;
+    margin-left: 150px;
+}
+.Contact-list img{
+    width: 40px;
+}
+.Contact-list{
+    margin-bottom: 20px;
+}
+.Contact-list p{
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 2%;
+    margin-left: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+}
+/* ------------------- */
+/* Contact */
+#befor-footer
+{
+    padding: 50px 0;
+    background-color: #403d38;
+}
+.befor-footer-container
+{
+    width: 80%;
+    margin: 0 auto;   
+}
+.befor-footer-contint
+{
+    float: left;
+    width: 22%;
+    padding: 0 1%;
+}
+.befor-footer-rhead
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 20px;
+}
+.befor-footer-r1tow
+{
+    color:  #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.befor-footer-contint li
+{
+    color:  #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.befor-footer-contint li span
+{
+    margin-right: 5px;
+}
+.befor-footer img{
+    width: 30px;
+}
+.befor-footer{
+    margin-bottom: 20px;
+}
+.befor-footer p{
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 2%;
+    margin-left: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+    color:  #969696;
+}
+.befor-footer-background
+{
+    background-image: url(../image/contact-details-map.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+/* ---------------------- */
+/* footer */
+#footer
+{
+    padding: 50px 0;
+    background-color: #353330;
+}
+.footer-container
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-fimg
+{
+    max-width: 100%;
+    height: auto;
+}
+.footer-limg
+{
+    width: 40px ;
+    padding: 10px;
+}
+.footer-container p
+{
+    margin: 20px 0;
+    color: #777;
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
